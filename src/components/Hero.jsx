@@ -118,7 +118,7 @@ const Hero = () => {
                 alt={item.name}
                 width={200}
                 height={130}
-                className="pb-4 min-w-24 max-h-24"
+                className="pb-4 min-w-[123px] max-h-28"
               />
               <p className="text-sm tracking-wide max-lg:text-xs font-SFmedium">
                 {item.name}
