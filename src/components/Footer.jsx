@@ -1,4 +1,5 @@
 import React from "react";
+import FootLinkList from "./FootLinkList";
 
 const Footer = () => {
   return (
@@ -104,6 +105,156 @@ const Footer = () => {
         previous visit to Apple.
       </p>
       <hr className="text-gray-300 my-4" />
+      <div className="flex items-center space-x-3">
+        <svg
+          height="44"
+          viewBox="0 0 14 44"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          className="text-[#000c]"
+        >
+          <path d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z"></path>
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          className="size-5 text-[#6e6e73]"
+        >
+          <path
+            fillRule="evenodd"
+            d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+            clipRule="evenodd"
+          />
+        </svg>
+        <p className="font-SFlight text-xs text-[#000000b8] tracking-widest">
+          Apple Store Online
+        </p>
+      </div>
+      <div className="flex justify-between my-5 max-md:flex-wrap">
+        <div>
+          <FootLinkList
+            title={"Shop and Learn"}
+            list={[
+              "Store",
+              "Mac",
+              "iPad",
+              "iPhone",
+              "Watch",
+              "AirPods",
+              "TV & Home",
+              "AirTag",
+              "Accessories",
+              "Gift Cards",
+            ]}
+          />
+          <FootLinkList title={"Apple Wallet"} list={["Wallet"]} />
+        </div>
+        <div>
+          <FootLinkList
+            title={"Account"}
+            list={[
+              "Manage Your Apple Account",
+              "Apple Store Account",
+              "iCloud.co",
+            ]}
+          />
+          <FootLinkList
+            title={"Entertainment"}
+            list={[
+              "Apple One",
+              "Apple TV+",
+              "Apple Music",
+              "Apple Arcade",
+              "Apple Podcasts",
+              "Apple Books",
+              "App Store",
+            ]}
+          />
+        </div>
+        <div>
+          <FootLinkList
+            title={"Apple Store"}
+            list={[
+              "Find a Store",
+              "Genius Bar",
+              "Today at Apple",
+              "Apple Summer Camp",
+              "Ways to Buy",
+              "Apple Trade In",
+              "Recycling Programme",
+              "Find your Order - Apple",
+              "Shopping Help",
+            ]}
+          />
+        </div>
+        <div>
+          <FootLinkList title={"For Business"} list={["Apple and Business"]} />
+          <FootLinkList
+            title={"For Education"}
+            list={[
+              "Apple and Education",
+              "Shop for Education",
+              "Shop for University",
+            ]}
+          />
+          <FootLinkList
+            title={"For Healthcare"}
+            list={["Apple in Healthcare", "Health on Apple Watch"]}
+          />
+        </div>
+        <div>
+          <FootLinkList
+            title={"Apple Values"}
+            list={[
+              "Accessibility",
+              "Environment",
+              "Privacy",
+              "Supply Chai",
+              "",
+            ]}
+          />
+          <FootLinkList
+            title={"About Apple"}
+            list={[
+              "Newsroom",
+              "Apple Leadership",
+              "Career Opportunities",
+              "Investors",
+              "Ethics & Compliance",
+              "Events",
+              "Contact Apple",
+            ]}
+          />
+        </div>
+      </div>
+      <p className="text-xs font-SFlight text-[#6e6e73] tracking-wider">
+        More ways to shop:{" "}
+        <a href="#" className="text-blue-600 underline">
+          Find an Apple Store
+        </a>{" "}
+        or{" "}
+        <a href="#" className="text-blue-600 underline">
+          other retailer
+        </a>
+        near you. Or call 000800 040 1966.
+      </p>
+      <hr className="text-gray-300 my-5" />
+      <div className="flex justify-between max-md:flex-wrap">
+        <div className="flex max-md:flex-wrap">
+          <p className="text-[0.8rem] font-SFlight text-[#6e6e73] tracking-wider">
+            Copyright © 2025 Apple Inc. All rights reserved.
+          </p>
+          <p className="text-[0.8rem] font-SFlight text-[#1d1d1f] tracking-wider ml-5 max-md:ml-0">
+            Privacy | Policy | Terms | of | Use | Sales | Policy | Legal | Site
+            | Map
+          </p>
+        </div>
+        <p className="text-[0.8rem] font-SFlight text-[#6e6e73] tracking-wider">
+          India
+        </p>
+      </div>
     </div>
   );
 };

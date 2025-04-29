@@ -12,7 +12,7 @@ const SpecialStories = () => {
         ]}
         textColor={"text-[#1d1d1f]"}
       />
-      <div className=" mt-5 pb-10">
+      <div className=" mt-5 pb-10 max-md:overflow-x-scroll no-scrollbar">
         <WideCard
           text={["EDUCATION", "Buy a new Mac or iPad with education savings."]}
           textZeroStyle={"-mt-7"}

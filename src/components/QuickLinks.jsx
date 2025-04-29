@@ -4,8 +4,8 @@ const QuickLinks = () => {
   return (
     <div className="max-lg:mx-5 ms-36 pb-10">
       <p className="text-3xl font-SFsemibold mb-5">Quick Links</p>
-      <div className="flex">
-        <button className="border border-black rounded-full py-2 px-4 mr-3 font-SFlight text-sm flex items-center">
+      <div className="flex max-md:overflow-x-scroll no-scrollbar">
+        <button className="border border-black rounded-full py-2 px-4 mr-3 text-nowrap font-SFlight text-sm flex items-center">
           Find a Store{" "}
           <span>
             <svg
@@ -22,7 +22,7 @@ const QuickLinks = () => {
             </svg>
           </span>
         </button>
-        <button className="border border-black rounded-full py-2 px-4 mr-3 font-SFlight text-sm flex items-center">
+        <button className="border border-black rounded-full py-2 px-4 mr-3 text-nowrap font-SFlight text-sm flex items-center">
           Order Status{" "}
           <span>
             <svg
@@ -39,7 +39,7 @@ const QuickLinks = () => {
             </svg>
           </span>
         </button>
-        <button className="border border-black rounded-full py-2 px-4 mr-3 font-SFlight text-sm flex items-center">
+        <button className="border border-black rounded-full py-2 px-4 mr-3 text-nowrap font-SFlight text-sm flex items-center">
           Shopping Help{" "}
           <span>
             <svg
@@ -56,7 +56,7 @@ const QuickLinks = () => {
             </svg>
           </span>
         </button>
-        <button className="border border-black rounded-full py-2 px-4 mr-3 font-SFlight text-sm flex items-center">
+        <button className="border border-black rounded-full py-2 px-4 mr-3 text-nowrap font-SFlight text-sm flex items-center">
           Your Saves{" "}
           <span>
             <svg
