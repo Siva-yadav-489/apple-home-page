@@ -7,7 +7,7 @@ const TheLatest = () => {
     {
       link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-16-pro-202409?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1726165763242",
       text: ["", "iPhone 16 Pro", " Apple Intelligence∆", "From ₹119900.00‡"],
-      widthAndHeight: "min-w-[24rem] max-w-[25rem] h-[31rem]",
+      widthAndHeight: "min-w-[24rem] max-w-[25rem] h-[30rem]",
       textOneStyle: "text-white",
       textTwoStyle:
         "font-SFmedium text-xl bg-clip-text text-transparent bg-gradient-to-r from-[#0090f7] via-[#ba62fc] via-[#f2416b] to-[#f55600] ",
@@ -21,7 +21,7 @@ const TheLatest = () => {
         "Thinstant classic.",
         "From ₹46900.00‡",
       ],
-      widthAndHeight: "min-w-[24rem] max-w-[25rem] h-[31rem]",
+      widthAndHeight: "min-w-[24rem] max-w-[25rem] h-[30rem]",
       textOneStyle: "text-black",
       textTwoStyle: "font-SFmedium text-xl text-black",
       textThreeStyle: "text-black  text-sm font-SFregular",
@@ -29,7 +29,7 @@ const TheLatest = () => {
     {
       link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-ipad-air-202503?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1740783181594",
       text: ["", "iPad Air", " Apple Intelligence∆", "From ₹59900.00‡"],
-      widthAndHeight: "min-w-[24rem] max-w-[25rem] h-[31rem]",
+      widthAndHeight: "min-w-[24rem] max-w-[25rem] h-[30rem]",
       textOneStyle: "text-black",
       textTwoStyle:
         "font-SFmedium text-xl bg-clip-text text-transparent bg-gradient-to-r from-[#0090f7] via-[#ba62fc] via-[#f2416b] to-[#f55600]",
@@ -38,7 +38,7 @@ const TheLatest = () => {
     {
       link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-air-202503?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1739502784018",
       text: ["", "MacBook Air", " Apple Intelligence∆", "From ₹99900.00‡"],
-      widthAndHeight: "min-w-[24rem] max-w-[25rem] h-[31rem]",
+      widthAndHeight: "min-w-[24rem] max-w-[25rem] h-[30rem]",
       textOneStyle: "text-black",
       textTwoStyle:
         "font-SFmedium text-xl bg-clip-text text-transparent bg-gradient-to-r from-[#0090f7] via-[#ba62fc] via-[#f2416b] to-[#f55600]",
@@ -47,7 +47,7 @@ const TheLatest = () => {
     {
       link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-16-pro-202409?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1726165763242",
       text: ["", "iPhone 16 Pro", " Apple Intelligence∆", "From ₹119900.00‡"],
-      widthAndHeight: "min-w-[24rem] max-w-[25rem] h-[31rem]",
+      widthAndHeight: "min-w-[24rem] max-w-[25rem] h-[30rem]",
       textOneStyle: "text-white",
       textTwoStyle:
         "font-SFmedium text-xl bg-clip-text text-transparent bg-gradient-to-r from-[#0090f7] via-[#ba62fc] via-[#f2416b] to-[#f55600]",
@@ -61,7 +61,7 @@ const TheLatest = () => {
         "Thinstant classic.",
         "From ₹46900.00‡",
       ],
-      widthAndHeight: "min-w-[24rem] max-w-[25rem] h-[31rem]",
+      widthAndHeight: "min-w-[24rem] max-w-[25rem] h-[30rem]",
       textOneStyle: "text-black",
       textTwoStyle: "font-SFmedium text-xl text-black",
       textThreeStyle: "text-black  text-sm font-SFregular",
@@ -69,7 +69,7 @@ const TheLatest = () => {
     {
       link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-ipad-air-202503?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1740783181594",
       text: ["", "iPad Air", " Apple Intelligence∆", "From ₹59900.00‡"],
-      widthAndHeight: "min-w-[24rem] max-w-[25rem] h-[31rem]",
+      widthAndHeight: "min-w-[24rem] max-w-[25rem] h-[30rem]",
       textOneStyle: "text-black",
       textTwoStyle:
         "font-SFmedium text-xl bg-clip-text text-transparent bg-gradient-to-r from-[#0090f7] via-[#ba62fc] via-[#f2416b] to-[#f55600]",
@@ -78,7 +78,7 @@ const TheLatest = () => {
     {
       link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-air-202503?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1739502784018",
       text: ["", "MacBook Air", " Apple Intelligence∆", "From ₹99900.00‡"],
-      widthAndHeight: "min-w-[24rem] max-w-[25rem] h-[31rem]",
+      widthAndHeight: "min-w-[24rem] max-w-[25rem] h-[30rem]",
       textOneStyle: "text-black",
       textTwoStyle:
         "font-SFmedium text-xl bg-clip-text text-transparent bg-gradient-to-r from-[#0090f7] via-[#ba62fc] via-[#f2416b] to-[#f55600]",
